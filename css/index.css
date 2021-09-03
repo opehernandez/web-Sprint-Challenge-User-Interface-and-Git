@@ -89,6 +89,13 @@ header nav a {
     margin-top: 3%;
     margin-right: 5%;
     font-weight: bold;
+    padding: 1%;
+    
+}
+header nav a:hover {
+    color: white;
+    background-color: black;
+    transform: scale(120%, 120%);
     
 }
 
@@ -137,6 +144,10 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes div:hover {
+    transform: scale(120%, 120%);
 }
 
 .box1 {
@@ -242,6 +253,7 @@ footer nav a {
     margin:5% 0;
     padding:2%;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .lets-work {
