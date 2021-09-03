@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -67,8 +68,30 @@ p {
 }
 
 header {
+    /* border: 1px solid grey; */
     display: flex;
+    width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
+header nav {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 800px;
+    margin:5% 0;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-right: 5%;
+    font-weight: bold;
+    
+}
+
 
 
 .container {
@@ -80,7 +103,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
 
