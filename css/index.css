@@ -89,7 +89,7 @@ header nav a {
     margin-top: 3%;
     margin-right: 5%;
     font-weight: bold;
-    padding: 1%;
+    padding: 0.5%;
     
 }
 header nav a:hover {
@@ -147,7 +147,7 @@ header nav a:hover {
 }
 
 .middle-content .boxes div:hover {
-    transform: scale(120%, 120%);
+    animation: spin-grow 1s ease-in-out;
 }
 
 .box1 {
@@ -212,6 +212,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding:1%;
+}
+
+footer nav a:hover {
+    color: black;
+    background-color: aliceblue;
 }
 
 
@@ -255,6 +261,10 @@ footer nav a {
     border-radius: 10px;
     font-weight: bold;
 }
+.learn-button:hover {
+    transform: scale(120%, 120%);
+    cursor: pointer;
+}
 
 .lets-work {
     margin:0% 2% 5% 2%;
@@ -264,4 +274,19 @@ footer nav a {
 }
 
 
+
+
+/* ANIMATIONS */
+
+@keyframes spin-grow {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+
+    }
+    
+}
 
